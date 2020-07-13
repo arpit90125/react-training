@@ -1,0 +1,46 @@
+.header{
+    text-align: center;
+}
+.outer{
+    border : solid black 1px ;
+    width : 50%;
+    margin: 0 25% 0;
+}
+.Label{
+    width : 60%;
+    float: left;
+    padding: 1.5%;
+    font-size: 1.2em;
+}
+.SelectDiv{
+    width: 40%;
+    margin-left: 60%;
+}
+.selectTag{
+    width : 90%;
+    padding: 2%; 
+    font-size: 1.1em;
+}
+.row{
+    margin : 1%;
+    padding: 2%;
+}
+.submitButton{
+    padding: 0.5em;
+    font-size: 1.1em;
+    width: 36.5%;
+    margin-left: 63%;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 0.4em;
+}
+
+#output{
+    border: 1px solid black;
+    width: 60%;
+    padding: 2%;
+    padding-left: 3%;
+    margin: 0 20%;
+    display: none;
+}

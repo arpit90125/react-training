@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="style.css">
+    
+<script src="data.js"></script>
+
+    <title>IFSC Code Finder</title>    
+  </head>
+  <body>
+    <div class = "outer" id = "formFill">
+      <div class = "header">
+        <h1>IFSC Code Finder</h1>
+      </div>
+      <div class = "row">
+        <div class = "Label"><label for="Bank">Select your bank</label></div>
+        <div class = "SelectDiv">
+          <select class = "selectTag" name="" id="Bank" onchange= fillStateListIntoSelect()>
+          <option disabled value="0" selected>Select Bank</option>
+        </select></div>
+        
+      </div>
+      <div class = "row">
+        <div class = "Label"><label for="State">State in which bank is situated</label></div>
+        <div class = "SelectDiv">
+        <select class = "selectTag" name="" id="State" onchange = fillDistrictListIntoSelect()>
+          <option disabled value="0" selected>Select State</option>
+        </select>
+      </div>
+      </div>
+      <div class = "row">
+        <div class = "Label"><label for="District">District in which bank is situated</label>
+      </div>
+      <div class = "SelectDiv">
+        <select class = "selectTag" name="" id="District" onchange = fillBranchListIntoSelect()>
+          <option disabled value="0" selected>Select District</option>
+        </select>
+      </div>
+      </div>
+      <div class = "row">
+        <div class = "Label"><label for="Branch">Branch of Bank within District</label></div>
+        <div class = "SelectDiv">
+          <select class = "selectTag" name="" id="Branch">
+          <option disabled value="0" selected>Select Branch</option>
+        </select>
+      </div>
+      </div>
+      <div class="row">
+        <button class = "submitButton" onclick="details()">Find Now</button>
+      </div>
+    </div>
+    <div id = "output">
+      <div id = "innerOutput"></div>
+      <div class="row">
+        <button class = "submitButton" onclick="window.location.reload()">Back</button>
+      </div>
+    </div>
+  </body>
+</html>

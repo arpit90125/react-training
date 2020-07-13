@@ -1,0 +1,37 @@
+.outer{
+    width: 30%;
+    margin: 1% 35%;
+}
+p{
+    font-size: large;
+    text-align: center
+}
+.textClass{
+    text-align: center;
+}
+.dateClass{
+    width: 100%;
+    padding-left: 10%;
+}
+.innerDate{
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+}
+.submitButton{
+    padding: 1% 10%;
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 4%;
+}
+button{
+    width: 90%;
+    height: 2em;
+    background-color: rgb(85, 139, 237);
+    border: 1px solid rgb(85, 139, 237);
+    color: black;
+    border-radius: 2%;
+}
+#output{
+    margin-top: 4%;
+}
